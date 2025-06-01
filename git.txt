@@ -1,0 +1,20 @@
+git config --global user.name "platonic"
+git config --global user.email "minlu0954@gmail.com"
+
+
+git start
+
+
+
+***working directory ---git  add----> Staging area ----Commit ---> Repositry
+
+# git init (initialize)
+
+git status
+
+git add "index.html"
+git add .
+git reset "index.html"
+git reset .
+
+git commit -m "first commit"

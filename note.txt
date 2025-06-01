@@ -1,0 +1,49 @@
+CLI-->command line interface
+
+WSL -->Window set system linux
+
+linux command
+---------------
+
+ls -- list
+ls -l -- list detail
+ls -lh
+ls -la -- show hidden
+
+mkdir  -- make directory(make folder)  (mkdir aa bb cc)multiple
+touch -- make file
+
+cd 
+pwd   (show my path)
+cat   (read file)(cat index.html)
+history  (Show history cmd)
+
+rm --(remove(only file))
+rm -r (remove folder)
+rm * --(remove all(only file))
+rm -r * (remove all folder)
+rm -rf (shif del)
+
+cp --(copy file)  (cp i.html b.html)
+cp -r --(copy folder)
+
+mv --(cut/move file/folder) (rm i.css css/ )
+mv --(rename file/folder) (rm i.css rename.css )
+
+
+----------------------------------------------------------------------------
+cmd line tool
+-------------------
+nano   -- write file
+vim  -- write file(i --insert / esc -- escapse / d -- delete  / :wq --(write and quit))
+
+curl  --(read url)(request)
+curl https://photo.png   --output  img.png(save img as img.png)
+
+zip (zip )
+unzip (unzip)
+
+
+
+-------------------------------------------------------------------
+chocolatey (in window power shell Admin(to install package))
