@@ -11,6 +11,8 @@ git start
 # git init (initialize)
 
 git status
+git log 
+git log --oneline
 
 git add "index.html"
 git add .
@@ -18,3 +20,23 @@ git reset "index.html"
 git reset .
 
 git commit -m "first commit"
+
+
+/////If not necessary git commit
+git revert commit-ID
+
+
+
+
+
+///////////////////////////////////////////////////////
+Connect to github
+git remote add origin http_repo-url
+
+git remote show origin
+
+git remote remove origin
+
+git push -u origin main
+
+push      /    pull//clone
